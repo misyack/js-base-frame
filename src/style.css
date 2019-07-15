@@ -1,0 +1,7 @@
+body {
+  transform: zoom;
+}
+
+#result {
+  background-color: aquamarine;
+}
