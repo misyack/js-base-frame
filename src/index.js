@@ -1,5 +1,6 @@
-import './style.css';
-import numbers from './module';
+import './css/style.css';
+
+import numbers from './js/module';
  
 class Square {
   constructor(numbers) {

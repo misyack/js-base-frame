@@ -1,5 +1,6 @@
-* # download node_modules
-  <pre><code>yarn or npm install</code></pre>
+## Basic Js Framework boiler plate
 
-* # run build
-  <pre><code>npm run build</code></pre>
+* ## download node_modules
+  > **`> yarn or npm install`**
+* ## run build
+  > **`> npm run build`**
