@@ -33,6 +33,26 @@ module.exports = {
       }
     ]
   },
+  optimization: {
+    minimize: true,
+    minimizer: [
+      new TerserWebpackPlugin({
+        parallel: true // Enable/disable multi-process parallel running.
+      })
+    ],
+    // splitChunks: {
+    //   cacheGroups: {
+    //     vendors: {
+    //       priority: -10,
+    //       test: /[\\/]node_modules[\\/]/
+    //     }
+    //   },
+    //   chunks: 'async',
+    //   minChunks: 1,
+    //   minSize: 30000,
+    //   name: true
+    // }
+  },
   plugins: [
     new MiniCssExtractPlugin({
       filename: 'styles.css'
